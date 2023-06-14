@@ -1,9 +1,29 @@
 
 img{
-   width: 500px;
+   width: 750px;
    height: auto; 
 }
 
+h1 {
+    text-align:center;
+}
+
+.footer-basic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social a {
+    display: inline-block;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
  a:after {
     content: "";

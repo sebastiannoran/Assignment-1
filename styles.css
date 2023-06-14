@@ -4,6 +4,7 @@ img{
    height: auto; 
 }
 
+
  a:after {
     content: "";
     display: block;
@@ -11,4 +12,12 @@ img{
     width: 1px;
   }
 
-  
+text-center {
+    text-align: center;
+}
+
+main {
+    margin: 0px 8px;
+    padding: 15 px;
+    background-color: rgb(234, 208, 147);
+}

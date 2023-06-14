@@ -4,6 +4,14 @@ img{
    height: auto; 
 }
 
+
+ a:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 1px;
+  }
+
 text-center {
     text-align: center;
 }

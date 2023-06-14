@@ -1,5 +1,14 @@
+
 img{
    width: 500px;
    height: auto; 
 }
 
+ a:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 1px;
+  }
+
+  

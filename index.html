@@ -5,14 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wild Fires Donation</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Wild Fire Donation</h1>
-    <img 
-         src="https://insideclimatenews.org/wp-content/uploads/2023/03/wildfire_thibaud-mortiz-afp-getty-scaled.jpg" 
-         alt="A recent wild fire photo"
-         >
-    <p> A recent wild fires at Cananda had cause air quality around the United States worsen. </p>
-    
+   <!--Creating the navigation bar from bootstap-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Homepage</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="air-quality.html">Air Quality</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Resources.html">Resources</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact us form.html">Donate or Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+    <h1>Wild Fire Donation</h1>  
+    <div id="img-div">
+        <img 
+             src="https://insideclimatenews.org/wp-content/uploads/2023/03/wildfire_thibaud-mortiz-afp-getty-scaled.jpg" 
+             alt="A recent wild fire photo"
+             class="center"
+             >
+        <p class="center"> Recent wildfires in Canada has caused dangergous levels of pollutants to travel 
+            across North America. With higher level of pollutants triggering adverse health events for all age groups, now is 
+            the time to support our organization to fund relief programs to those most impacted. Please consider donating or 
+            reading more about the impact of the June 2023 wildfires.
+             </p>
+           
+        </div>
+
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="#"><i class="icon ion-social-instagram"></i></a>
+                <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Charies © 2023</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

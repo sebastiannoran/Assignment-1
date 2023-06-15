@@ -42,3 +42,21 @@ main {
     padding: 15 px;
     background-color: rgb(234, 208, 147);
 }
+
+#city1 {
+    width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    background: rgba(189, 169, 136, 0.321);
+}
+
+#city2 {
+    width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    background: rgba(189, 169, 136, 0.321);
+}
